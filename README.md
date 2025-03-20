@@ -14,7 +14,7 @@ template.json
 
 .github/workflows/pipeline.yaml
 ```yaml
-- uses: step-security/envsubst-action@1.0.0
+- uses: step-security/envsubst-action@v1
   env:
       VERSION: 1.2.3
       INSTANCE: staging
