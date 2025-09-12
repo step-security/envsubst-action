@@ -13,4 +13,4 @@ inputs:
     required: true
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'docker://ghcr.io/step-security/envsubst-action:v1.1.1@sha256:84bd18d25c864f5061d093cc8bfd4cfb2ec550a198f8e3063d41a9c1aed6aadc' #v1.1.1
